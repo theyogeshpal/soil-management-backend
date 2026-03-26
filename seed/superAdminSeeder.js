@@ -19,8 +19,8 @@ const createSuperAdmin = async () => {
     // Create superadmin
     const superAdmin = await User.create({
       name: 'Super Admin',
-      email: 'admin@gmail.com',
-      password: 'admin@123',
+      email: 'superadmin@soiltest.com',
+      password: 'superadmin123',
       role: 'superadmin',
       phone: '+1234567890'
     });
